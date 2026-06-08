@@ -556,7 +556,7 @@ int main()
             applyAndShow(current, r, "Histogram Equalization");
         }
 
-        // ── 10: Bilateral Filter ★ NEW ─────────────────────────
+        // ── 10: Bilateral Filter NEW 
         else if (choice == 10)
         {
             if (!requireImage(current)) continue;
@@ -572,7 +572,7 @@ int main()
             applyAndShow(current, r, "Bilateral Filter");
         }
 
-        // ── 11: Canny Edge Detection ★ NEW ─────────────────────
+        // ── 11: Canny Edge Detection NEW
         else if (choice == 11)
         {
             if (!requireImage(current)) continue;
@@ -592,7 +592,7 @@ int main()
             applyAndShow(current, r, "Canny Edges");
         }
 
-        // ── 12: Morphological Erosion ★ NEW ────────────────────
+        // ── 12: Morphological Erosion NEW 
         else if (choice == 12)
         {
             if (!requireImage(current)) continue;
@@ -610,7 +610,7 @@ int main()
             applyAndShow(current, r, "Morphological Erosion");
         }
 
-        // ── 13: Morphological Dilation ★ NEW ───────────────────
+        // ── 13: Morphological Dilation NEW 
         else if (choice == 13)
         {
             if (!requireImage(current)) continue;
@@ -628,7 +628,7 @@ int main()
             applyAndShow(current, r, "Morphological Dilation");
         }
 
-        // ── 14: Unsharp Masking ★ NEW ──────────────────────────
+        // ── 14: Unsharp Masking NEW
         else if (choice == 14)
         {
             if (!requireImage(current)) continue;
