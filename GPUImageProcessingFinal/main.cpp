@@ -385,17 +385,17 @@ static void printMenu(const cv::Mat& img)
     std::cout << "|  ── Classic Filters ─────────────────────────────  |\n";
     std::cout << "|  4.  Grayscale Conversion         (GPU)            |\n";
     std::cout << "|  5.  Gaussian Blur  – Naive       (GPU)            |\n";
-    std::cout << "|  6.  Gaussian Blur  – Shared Mem  (GPU) ★ faster  |\n";
+    std::cout << "|  6.  Gaussian Blur  – Shared Mem  (GPU) faster     |\n";
     std::cout << "|  7.  Sobel Edge Detection         (GPU)            |\n";
     std::cout << "|  8.  Brightness & Contrast        (GPU)            |\n";
     std::cout << "|  9.  Histogram Equalization       (GPU)            |\n";
     std::cout << "+----------------------------------------------------+\n";
     std::cout << "|  ── Advanced Filters ────────────────────────────  |\n";
-    std::cout << "|  10. Bilateral Filter             (GPU) ★ new     |\n";
-    std::cout << "|  11. Canny Edge Detection         (GPU) ★ new     |\n";
-    std::cout << "|  12. Morphological Erosion        (GPU) ★ new     |\n";
-    std::cout << "|  13. Morphological Dilation       (GPU) ★ new     |\n";
-    std::cout << "|  14. Unsharp Masking (Sharpen)    (GPU) ★ new     |\n";
+    std::cout << "|  10. Bilateral Filter             (GPU)  new       |\n";
+    std::cout << "|  11. Canny Edge Detection         (GPU)  new       |\n";
+    std::cout << "|  12. Morphological Erosion        (GPU)  new       |\n";
+    std::cout << "|  13. Morphological Dilation       (GPU)  new       |\n";
+    std::cout << "|  14. Unsharp Masking (Sharpen)    (GPU)  new       |\n";
     std::cout << "+----------------------------------------------------+\n";
     std::cout << "|  0.  Exit                                          |\n";
     std::cout << "+----------------------------------------------------+\n";
@@ -511,7 +511,7 @@ int main()
             applyAndShow(current, r, "Gaussian Blur – Naive");
         }
 
-        // ── 6: Gaussian Blur (shared memory) ★ NEW ────────────
+        // ── 6: Gaussian Blur (shared memory) NEW
         else if (choice == 6)
         {
             if (!requireImage(current)) continue;
