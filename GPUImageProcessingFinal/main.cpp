@@ -377,12 +377,12 @@ static void printMenu(const cv::Mat& img)
         << "  (" << img.channels() << " ch)"
         << std::string(20, ' ') << "|\n";
     std::cout << "+----------------------------------------------------+\n";
-    std::cout << "|  ── Load / Save / Info ──────────────────────────  |\n";
+    std::cout << "| Load / Save / Info                                 |\n";
     std::cout << "|  1.  Load Image                                    |\n";
     std::cout << "|  2.  Save Current Image                            |\n";
     std::cout << "|  3.  Show GPU Info                                 |\n";
     std::cout << "+----------------------------------------------------+\n";
-    std::cout << "|  ── Classic Filters ─────────────────────────────  |\n";
+    std::cout << "| Classic Filters                                    |\n";
     std::cout << "|  4.  Grayscale Conversion         (GPU)            |\n";
     std::cout << "|  5.  Gaussian Blur  – Naive       (GPU)            |\n";
     std::cout << "|  6.  Gaussian Blur  – Shared Mem  (GPU) faster     |\n";
@@ -390,7 +390,7 @@ static void printMenu(const cv::Mat& img)
     std::cout << "|  8.  Brightness & Contrast        (GPU)            |\n";
     std::cout << "|  9.  Histogram Equalization       (GPU)            |\n";
     std::cout << "+----------------------------------------------------+\n";
-    std::cout << "|  ── Advanced Filters ────────────────────────────  |\n";
+    std::cout << "| Advanced Filters                                   |\n";
     std::cout << "|  10. Bilateral Filter             (GPU)  new       |\n";
     std::cout << "|  11. Canny Edge Detection         (GPU)  new       |\n";
     std::cout << "|  12. Morphological Erosion        (GPU)  new       |\n";
