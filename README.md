@@ -226,7 +226,3 @@ See Chapter 6.2 of the internship report for the full future-work discussion.
 5. OpenCV Development Team, *OpenCV Documentation*, opencv.org.
 6. Dear ImGui, https://github.com/ocornut/imgui.
 7. C. Tomasi and R. Manduchi, "Bilateral Filtering for Gray and Color Images," *Proc. IEEE ICCV*, 1998.
-
-## License
-
-Add your license of choice here (e.g. MIT) — no `LICENSE` file was included in the source project, so pick one before publishing publicly.
