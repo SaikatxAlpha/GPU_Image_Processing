@@ -88,8 +88,8 @@ Every filter follows the same seven-step workflow: click → allocate device buf
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/SaikatxAlpha/GPU_Image_Processing.git
+cd GPU_Image_Processing
 ```
 
 ### 2. Install the CUDA Toolkit
