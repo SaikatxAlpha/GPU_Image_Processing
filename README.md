@@ -28,7 +28,7 @@ This started as a six-week summer internship project (see `Summer_Internship_Rep
 - [Performance Notes](#performance-notes)
 - [Known Limitations / Future Work](#known-limitations--future-work)
 - [References](#references)
-- [License](#license)
+
 
 ---
 
